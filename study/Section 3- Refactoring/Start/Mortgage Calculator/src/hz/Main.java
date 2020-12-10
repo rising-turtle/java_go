@@ -16,7 +16,7 @@ public class Main {
         byte years = (byte) readNumber("Period (Years): ", 1, 30);
 
         var morgageCalculator = new MortgageCaculator( principal, annualInterest, years);
-        var morgageReporter = new MortgageReporter(morgageCalculator);
+        var morgageReporter = new MortgageRep orter(morgageCalculator);
 
         morgageReporter.printMortgage();
         morgageReporter.printPaymentSchedule();
