@@ -2,8 +2,6 @@ package hz;
 
 public class RacingCar extends Car {
     private double maxSpeed;
-    public String brand;
-    public double price;
     public int year;
 
     public RacingCar(String brand, double price, int year, double maxSpeed) {

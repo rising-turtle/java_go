@@ -38,6 +38,7 @@ public class Main {
         // buyer.showAffordable(carList);
         // var buyer = new Buyer("Tom", downPayment, loanInterestRate, loanTerm, budget);
     }
+
     static void printCarInfo(Car car){
         System.out.println("brand " + car.brand + " " + car.price);
     }
