@@ -12,7 +12,7 @@ public class Main {
         var car3 = new Car("Honda", 30000);
 
         // var car4 = new LuxuryCar("LandRover", 90000, 2020);
-        // var car5 = new RacingCar("Bugatti", 150000, 200 );
+        // var car5 = new RacingCar("Bugatti", 150000, 150. );
 
         var carList = new Car[]{car1, car2, car3};
 
@@ -31,7 +31,7 @@ public class Main {
             double monthly_payment = buyer.calculateMonthlyPayment(loanInterestRate,
                     loanTerm, downPayment, car.price);
 
-            if(monthly_payment < budget) {
+            if(monthly_payment <= budget) {
                 printCarInfo(car);
             }
         }

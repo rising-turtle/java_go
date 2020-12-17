@@ -9,7 +9,7 @@ public class Car {
         this.brand = brand;
         this.price = price;
     }
-//
+
 //    public void printCarInfo(){
 //        System.out.println("brand " + brand + " price: " + price);
 //    }
